@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="imagenes/varias/decoeco.png" />
+    <title>Contacto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="menuconlogosecciones">
+        <div>
+          <a href="index.html"
+            ><img
+              class="logo"
+              id="inicio"
+              src="imagenes/varias/decoeco.png"
+              alt="EcoGarden"
+          /></a>
+        </div>
+        <nav class="menuprincipal">
+          <ul class="menusecciones">
+            <li><a href="nosotros.html">NOSOTROS</a></li>
+            <li><a href="Servicios.html">SERVICIOS</a></li>
+            <li><a href="trabajos.html">GALERIA</a></li>
+            <li><a href="comotrabajamos.html">CÓMO TRABAJAMOS</a></li>
+            <li><a class="seleccionado" href="contacto.html">CONTACTO</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="cuerpo">
+      <h1 id="arriba" class="contactocentrado">Contacto</h1>
+
+      <form action="#">
+        <div class="campos">
+          <input type="text" name="nombre" placeholder="Nombre" required />
+        </div>
+
+        <div class="campos">
+          <input type="text" name="apellido" placeholder="Apellido" required />
+        </div>
+
+        <div class="campos">
+          <input type="email" name="email" placeholder="Correo" required />
+        </div>
+
+        <div class="campos">
+          <input type="text" name="telefono" placeholder="Teléfono" required />
+        </div>
+
+        <div class="consulta">
+          <textarea
+            name="mensaje"
+            for="mensaje"
+            placeholder="Consulta"
+            maxlength="500"
+          ></textarea>
+        </div>
+
+        <div class="campo2">
+          <input type="radio" name="opcion" id="opcion" />
+          <label for="opcion">Contáctame vía mail</label>
+          <input type="radio" name="opcion" id="tel" />
+          <label for="tel">Contáctame por WhatsApp</label>
+        </div>
+
+        <div class="enviar">
+          <input type="submit" value="Enviar" />
+        </div>
+      </form>
+    </div>
+    <br />
+    <br />
+
+    <footer>
+      <div class="piecontacto">
+          <h2>Contacto</h2>
+          <ul class="grid-contacto">
+              <li><a href="contacto.html"><img class="icono-contacto" src="imagenes/contacto/email.png" alt="Mail"></a></li>
+              <li><a href="#"><img class="icono-contacto" src="imagenes/contacto/insta.png" alt="instagram"></a></li>
+              <li><a href="#"><img class="icono-contacto" src="imagenes/contacto/face.png" alt="Facebook"></a></li></a>
+          </ul>
+      
+      <div class="fixed">
+          <a class="volver" href= #inicio>^</a>
+          <a class="whatsapp" href="#"><img class="icono-contacto" src="imagenes/contacto/whatsapp.png" alt="WhatsApp"></a>
+      </div>
+          <p class="copyright">©EcoGarden 2020 - Todos los derechos reservados</p>
+      </div>
+    </footer>
+  </body>
+</html>

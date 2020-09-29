@@ -1,0 +1,952 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  font-weight: 400;
+}
+
+.cuerpo {
+  width: 95%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-weight: 300;
+  letter-spacing: 3px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-weight: 200;
+}
+
+h3 {
+  font-weight: 200;
+}
+
+/* HEADER (del index)*/
+
+.contenedor {
+  background-image: url(../imagenes/varias/eco.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  width: 100%;
+  margin: auto;
+}
+
+ul li a {
+  color: rgb(248, 242, 233);
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.menuconlogo {
+  background-color: rgba(24, 17, 7, 0.774);
+  padding-left: 10px;
+  padding-top: 10px;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.menu {
+  width: 100%;
+  margin: auto;
+  padding-bottom: 0;
+  padding-top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.menuprincipal li a {
+  display: inline-block;
+  padding: 0rem 1.25rem;
+  margin-right: 20px;
+  font-size: 0.9rem;
+  letter-spacing: 2.5px;
+  transition: color 0.3s;
+}
+
+.menuprincipal a:hover {
+  color: rgb(228, 125, 41);
+}
+
+.logo {
+  width: 6rem;
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  left: 15px;
+}
+
+/* HEADER (demás secciones) */
+
+.menuconlogosecciones {
+  background-color: rgba(30, 30, 31, 0.966);
+}
+
+.menusecciones {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.seleccionado {
+  color: rgb(246, 134, 68);
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.438);
+  border-radius: 8px;
+}
+
+/* BODY INDEX */
+
+.tp1 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.titulo1 {
+  font-size: 3.6rem;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 5px;
+  line-height: 1.3;
+  margin-right: 6rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  color: rgb(137, 170, 75);
+  width: 40%;
+  position: relative;
+  border-left: solid 3.5px rgb(137, 170, 75);
+  padding-left: 2.8rem;
+}
+
+.p1index {
+  width: 49%;
+  line-height: 2.7;
+  padding-right: 2rem;
+  margin-top: 5em;
+  margin-left: 2rem;
+}
+
+.p2index {
+  background-color: rgb(76, 75, 85);
+  font-size: 1.1rem;
+  text-align: center;
+  line-height: 2.7;
+  color: #fff;
+  padding: 2rem 3rem;
+  border-radius: 20px;
+}
+
+.p3index {
+  padding: 5rem 4.5rem;
+  line-height: 2.7;
+  text-align: center;
+}
+
+.contenedor2 {
+  background-image: url(../imagenes/otras/container2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  border-radius: 20px;
+}
+
+.titulo2 {
+  font-size: 3.6rem;
+  font-family: "Anton", sans-serif;
+  color: rgb(137, 170, 75);
+  letter-spacing: 5px;
+  line-height: 1.3;
+  border-right: solid 3px rgb(137, 170, 75);
+  width: 43%;
+  display: inline-block;
+  margin-bottom: 5rem;
+  margin-left: 3rem;
+  padding-top: 2.2rem;
+  padding-bottom: 1.2rem;
+}
+
+.conitem {
+  list-style-image: url(../imagenes/varias/iconocopia.jpg);
+  width: max-content;
+}
+
+.p4index {
+  display: inline-block;
+  width: 45%;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-top: 5rem;
+  margin-left: 1.7rem;
+  padding-top: 2rem;
+}
+
+.p6index {
+  font-size: 1.1rem;
+  text-align: center;
+  line-height: 2.7;
+  color: rgb(38, 37, 37);
+  padding: 5rem;
+}
+
+.contenedor3 {
+  background-image: url(../imagenes/plantas/terraza3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  border-radius: 20px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+/* FOOTER (todas las secciones) */
+
+footer {
+  background-color: rgba(30, 30, 31, 0.966);
+  color: #fff;
+  width: 100%;
+  min-width: 100vh;
+  margin: auto;
+}
+
+.fixed div {
+  position: relative;
+}
+
+.volver {
+  background: rgba(134, 133, 132, 0.708);
+  color: rgb(51, 49, 49);
+  font-size: 2rem;
+  font-weight: 500;
+  margin: auto;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 0.2rem 1rem;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  position: fixed;
+  bottom: 6px;
+}
+
+.whatsapp img {
+  width: 3.2rem;
+  height: 3rem;
+  margin: auto;
+  margin-bottom: 15px;
+  position: fixed;
+  bottom: 6px;
+  right: 20px;
+}
+
+
+footer li {
+  color: #fff;
+}
+
+footer li img {
+  margin-right: 8px;
+}
+
+
+
+.contactocentrado {
+  text-align: center;
+}
+
+.piecontacto ul {
+  list-style: none;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.piecontacto li {
+  line-height: 3;
+}
+
+.piecontacto h2 {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 200;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+.consultas {
+  line-height: 2;
+  text-align: center;
+}
+
+.icono-contacto {
+  width: 2.3rem;
+  height: 2.3rem;
+  background-color: white;
+  padding: 2px;
+  border-radius: 120px;
+  display: inline;
+}
+
+.grid-contacto {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-self: center;
+  width: 200px;
+  margin-left: 42.5%; 
+}
+
+.grid-contacto li {
+text: center;
+}
+
+.copyright {
+  margin-left: 500px;
+  font-size: 12px;
+  padding-bottom: 15px;
+}
+
+.icono-contacto img:hover {
+  border-radius: 8px;
+ 
+}
+
+/* BODY SERVICIOS y NOSOTROS */
+
+.item-s {
+  list-style: square;
+}
+
+/* BODY NOSOTROS */
+
+.contenedor-nosotros {
+  background-image: url(../imagenes/otras/container5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  margin-bottom: 8rem;
+}
+
+.quienes-somos {
+  background-color: rgba(4, 15, 7, 0.603);
+  height: 100vh;
+}
+
+.contenedor-nosotros h1 {
+  padding-top: 5.5rem;
+  color: rgb(255, 255, 242);
+  font-family: 'Montserrat', sans-serif;
+  ;
+}
+
+.contenedor-nosotros p {
+  padding-left: 11rem;
+  padding-right: 11rem;
+  text-align: center;
+  line-height: 2.7;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 242);
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.7px;
+}
+
+#carouselExampleIndicators {
+  width: 100%;
+  margin: 2rem;
+  border-radius: 20px;
+}
+
+#carouselExampleIndicators img {
+  border: double white 3px;
+  border-radius: 15px; 
+}
+
+.articulo div {
+ width: 45%;
+}
+
+.articulo h2 {
+margin-bottom: 2rem;
+}
+
+.articulo  ul {
+line-height: 2.1;
+margin-left: 2rem;
+}
+
+.div-clas-5 {
+  display: grid;
+  gap: 80px;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 2rem;
+  margin-bottom: 4rem;
+}
+
+#carouselExampleIndicators div:nth-child() {
+  /*GRID AREA: grid-row-start / grid-column-start / grid-row-end /grid-column-end; */
+  grid-area: 1 / 1 / span 1 / span 1;
+}
+
+.div-clas-5 article:nth-child(1) {
+  grid-area: 1 / 2 / span 1 / span 1;
+}
+
+
+
+/* BODY SERVICIOS */
+
+.div-servicios {
+  background-image: url(../imagenes/otras/fondo4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  margin-bottom: 8rem;
+}
+
+
+.parrafo-servicios {
+ line-height: 2;
+}
+
+.animacion-imagenes {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 100%;
+  }
+
+
+.animacion-imagenes img {
+  width: 100%;
+  height: 533px;
+  transition: width 1s; 
+}
+
+.animacion-imagenes img:hover {
+  width: 385px;
+  height: 533px;
+  }
+
+
+.foto1 {
+  z-index: 5;
+}
+
+.foto2 {
+  z-index: 4;
+}
+
+.foto3 {
+  z-index: 3;
+}
+
+.foto4 {
+  z-index: 2;
+}
+
+.foto5 {
+  z-index: 1;
+}
+
+
+
+/* grid decoración */
+
+.grid-decoracion {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 30px;
+}
+
+.grid-decoracion h2:nth-child(1) {
+  display: grid;
+  /*GRID AREA: grid-row-start / grid-column-start / grid-row-end /grid-column-end; */
+  grid-area: 1 / 1 / span 1 / span 1;
+}
+
+.grid-decoracion p:nth-child(2) {
+  display: grid;
+  grid-area: 2 / 1 / span 1 / span 1;
+}
+
+.grid-decoracion img:nth-child(3) {
+  display: grid;
+  grid-area: 1 / 2 / span 2 / span 1;
+}
+
+/* grid mantenimiento */
+
+.grid-mantenimiento {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 30px;
+}
+
+
+.grid-mantenimiento h2:nth-child(1) {
+  display: grid;
+  grid-area: 1 / 2 / span 1 / span 1;
+}
+
+.grid-mantenimiento ul:nth-child(2) {
+  display: grid;
+  grid-area: 2 / 2 / span 1 / span 1;
+}
+
+.grid-mantenimiento img:nth-child(3) {
+  display: grid;
+  grid-area: 1 / 1 / span 2 / span 1;
+}
+
+
+/* grid jardin vertical */
+
+.grid-vertical {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 30px;
+}
+
+.grid-vertical h2:nth-child(1) {
+  display: grid;
+  grid-area: 1 / 1 / span 1 / span 1;
+}
+
+.grid-vertical p:nth-child(2) {
+  display: grid;
+  grid-area: 2 / 1 / span 1 / span 1;
+}
+
+.grid-vertical p:nth-child(3) {
+  display: grid;
+  grid-area: 3 / 1 / span 1 / span 1;
+}
+
+.grid-vertical img:nth-child(4) {
+  display: grid;
+  grid-area: 1 / 2 / span 2 / span 1;
+}
+
+
+/* grid jardin plantas */
+
+.grid-plantas {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 30px;
+}
+
+.grid-plantas h2:nth-child(1) {
+  display: grid;
+  grid-area: 1 / 1 / span 1 / span 1;
+}
+
+.grid-plantas p:nth-child(2) {
+  display: grid;
+  grid-area: 2 / 1 / span 1 / span 1;
+}
+
+.grid-plantas p:nth-child(3) {
+  display: grid;
+  grid-area: 2 / 1 / span 1 / span 1;
+}
+
+.grid-plantas img:nth-child(4) {
+  display: grid;
+  grid-area: 2 / 1 / span 1 / span 1;
+}
+
+
+
+/* BODY H1 Secciones */
+
+#arriba {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#accordionExample div {
+  background-color: rgba(241, 229, 229, 0.739);
+}
+
+
+
+
+/* BODY TRABAJOS */
+
+/* íconos */
+
+.iconos img {
+  width: 130px;
+  height: 130px;
+  margin-right: 12px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.iconos {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  margin-bottom: 10rem;
+}
+
+.iconos a {
+  color: black;
+}
+
+.iconos div {
+  border: solid 1px black;
+  border-radius: 15px;
+  margin: 12px;
+  padding: 12px;
+  transition: 0.6s;
+  height: 18rem;
+  width: 13rem;
+}
+
+.iconos div:hover {
+  border: solid 3px rgb(8, 206, 84);
+  color: rgb(8, 206, 84);
+  transform: scale(1.07);
+}
+
+.h2galeria {
+  font-size: 1.9rem;
+  color: white;
+  font-weight: 200;
+  text-align: center;
+  letter-spacing: 12px;
+  padding-bottom: 3rem;
+}
+
+.division {
+  background-color: white;
+  width: 100%;
+  height: 7rem;
+}
+
+
+/* Fotos */
+
+.fondo-galeria {
+  background-color: rgb(30, 29, 31);
+  padding: 5rem;
+  width: 100%;
+  transition: all 1s;
+}
+
+.fondo-galeria img {
+  transition: 1s;
+}
+
+.fondo-galeria img:hover {
+  display: flex;
+  justify-content: center;
+  transform: scale(1.2);
+}
+
+.grid-deco img,
+.grid-mantenimiento img,
+.grid-ecologico img,
+.grid-muebles img,
+.grid-iluminacion img,
+.grid-plantas img,
+.grid-vertical img {
+  border-radius: 10px;
+  width: 100%;
+  border: solid rgb(255, 255, 255) 5px;
+}
+
+.grid-deco,
+.grid-mantenimiento,
+.grid-ecologico,
+.grid-muebles,
+.grid-iluminacion,
+.grid-plantas,
+.grid-vertical {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 30px;
+}
+
+/* fotos decoración */
+.grid-deco img:nth-child(1) {
+  /*GRID AREA: grid-row-start / grid-column-start / grid-row-end /grid-column-end; */
+  grid-area: 1 / 1 / span 2 / span 1;
+}
+
+.grid-deco img:nth-child(2) {
+  grid-area: 1 / 2 / span 1 / span 1;
+}
+
+.grid-deco img:nth-child(5) {
+  grid-area: 2 / 2 / span 1 / span 1;
+}
+
+.grid-deco img:nth-child(4) {
+  grid-area: 3 / 1 / span 1 / span 1;
+}
+
+.grid-deco img:nth-child(3) {
+  grid-area: 3 / 2 / span 1 / span 1;
+}
+
+.grid-deco img:nth-child(6) {
+  grid-area: 4 / 1 / span 1 / span 1;
+}
+
+.grid-deco img:nth-child(7) {
+  grid-area: 4 / 2 / span 1 / span 1;
+}
+
+#deco2 {
+  height: 570px;
+}
+
+#suelo-madera {
+  height: 365px;
+}
+
+/* fotos mantenimiento */
+#remodelacion {
+  height: 340px;
+}
+
+.grid-mantenimiento img:nth-child(1) {
+/*GRID AREA: grid-row-start / grid-column-start / grid-row-end /grid-column-end; */
+grid-area: 1 / 1 / span 1 / span 1;
+}
+
+.grid-mantenimiento img:nth-child(2) {
+  /*GRID AREA: grid-row-start / grid-column-start / grid-row-end /grid-column-end; */
+  grid-area: 1 / 2 / span 1 / span 1;
+  }
+
+  .grid-mantenimiento img:nth-child(3) {
+    /*GRID AREA: grid-row-start / grid-column-start / grid-row-end /grid-column-end; */
+    grid-area: 2 / 1 / span 1 / span 1;
+    }
+
+  .grid-mantenimiento img:nth-child(3) {
+    /*GRID AREA: grid-row-start / grid-column-start / grid-row-end /grid-column-end; */
+     grid-area: 2 / 2 / span 1 / span 1;
+     }
+
+/* fotos productos ecológicos */
+#mueble-p {
+  height: 412px;
+}
+
+#barra {
+  height: 412px;
+}
+
+#mesa {
+  height: 410px;
+}
+
+.grid-ecologico img:nth-child(1) {
+  /*GRID AREA: grid-row-start / grid-column-start / grid-row-end /grid-column-end; */
+  grid-area: 1 / 1 / span 2 / span 1;
+}
+
+/* fotos muebles de exterior */
+#reposeras {
+  height: 365px;
+}
+
+/* fotos iluminación */
+.grid-iluminacion {
+  grid-template-columns: 250px 250px 250px
+  grid-row: 200px 200px 200px;
+}
+
+
+/* fotos jardín vertical */
+.grid-vertical img:nth-child(1) {
+  /*GRID AREA: grid-row-start / grid-column-start / grid-row-end /grid-column-end; */
+  grid-area: 1 / 1 / span 2 / span 1;
+}
+
+.grid-vertical img:nth-child(2) {
+  grid-area: 1 / 2 / span 1 / span 1;
+}
+
+.grid-vertical img:nth-child(3) {
+  grid-area: 2 / 2 / span 1 / span 1;
+}
+
+.grid-vertical img:nth-child(4) {
+  grid-area: 3 / 1 / span 1 / span 1;
+}
+
+.grid-vertical img:nth-child(5) {
+  grid-area: 3 / 2 / span 2 / span 1;}
+
+.grid-vertical img:nth-child(6) {
+  grid-area: 4 / 1 / span 1 / span 1;
+  }
+
+
+#vertical1 {
+  height: 270px;
+}
+
+#vertical5  {
+  height: 350px;
+}
+
+#vertical-port {
+  height: 432px;
+}
+
+
+/* BODY COMO TRABAJAMOS */
+
+.como-trabajamos-body {
+  background-image: url(../imagenes/plantas/terraza1.jpg);
+  Background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  width: 100%;
+  margin: auto;
+}
+
+.separador {
+  padding-bottom: 3rem;
+}
+
+.como-t {
+  background-color: rgba(253, 253, 238, 0.65);
+  padding: 2rem; 
+  border-radius: 5px;
+}
+
+.parrafo-como-trabajamos {
+  text-align: center;
+  line-height: 2.5;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  padding: 2rem
+}
+
+
+/* BODY CONTACTO */
+
+.campos,
+.campo2,
+.consulta,
+.textarea,
+.enviar {
+  text-align: center;
+}
+
+.campos input {
+  width: 395px;
+  height: 30px;
+  font-size: 1rem;
+  border: rgb(113, 111, 111);
+  border-radius: 5px;
+  margin: 5px;
+  background-color: rgba(223, 218, 218, 0.701);
+  padding-left: 8px;
+  transition: all 0.6s;
+}
+
+input:focus {
+  width: 400px;
+  font-size: 1.4rem;
+}
+
+textarea {
+  width: 395px;
+  height: 100px;
+  font-size: 1rem;
+  margin: 8px;
+  font-family: Open Sans, Sans-serif;
+  border: rgb(113, 111, 111) 1px;
+  border-radius: 5px;
+  margin: 5px;
+  background-color: rgba(223, 218, 218, 0.701);
+  padding-left: 8px;
+  transition: all 0.6s;
+}
+
+textarea:focus {
+  width: 400px;
+  font-size: 1.4rem;
+}
+
+.campo2 input {
+  margin: 8px;
+  width: auto;
+  height: auto;
+}
+
+.campo2 label {
+  transition: 0.3s;
+}
+
+.campo2 label:hover,
+input:hover {
+  font-weight: bold;
+}
+
+.enviar input {
+  width: 100px;
+  height: 40px;
+  margin: 20px;
+  font-weight: bold;
+  border: rgb(130, 127, 127);
+  border-radius: 5px;
+  background-color: rgba(223, 218, 218, 0.701);
+  transition: all 0.3s;
+}
+
+.enviar input:hover {
+  background-color: rgb(157, 159, 157);
+  width: 90px;
+  height: 34px;
+}
