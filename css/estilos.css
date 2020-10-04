@@ -532,21 +532,31 @@ margin-left: 2rem;
   grid-area: 1 / 2 / span 2 / span 1;
 }
 
-/* grid mantenimiento */
+/* grid mantenimiento 
 
-.grid-mantenimiento {
+.grid-mantenimiento  {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   gap: 30px;
 }
 
-.grid-mantenimiento ul {
+.titulo-servicios h2:nth-child(1) {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  gap: 30px;
+  grid-area: 1 / 2 / span 1 / span 1;
 }
 
-.grid-mantenimiento li {
+.iparrafo-servicios p:nth-child(2) {
+  display: grid;
+  grid-area: 2 / 2 / span 1 / span 1;
+  }
+
+  .imagenes-servicios img:nth-child(3) {
+  display: grid;
+  grid-area: 1 / 1 / span 2 / span 1;
+ } */
+
+ .grid-mantenimiento {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: 30px;
@@ -554,18 +564,20 @@ margin-left: 2rem;
 
 .grid-mantenimiento h2:nth-child(1) {
   display: grid;
-  grid-area: 1 / 2 / span 1 / span 1;
+  /*GRID AREA: grid-row-start / grid-column-start / grid-row-end /grid-column-end; */
+  grid-area: 1 / 1 / span 1 / span 1;
 }
 
-.grid-mantenimiento ul:nth-child(2) {
+.grid-mantenimiento p:nth-child(2) {
   display: grid;
-  grid-area: 2 / 2 / span 1 / span 1;
+  grid-area: 2 / 1 / span 1 / span 1;
 }
 
 .grid-mantenimiento img:nth-child(3) {
   display: grid;
-  grid-area: 1 / 1 / span 2 / span 1;
+  grid-area: 1 / 2 / span 2 / span 1;
 }
+
 
 
 /* grid jardin vertical */
@@ -599,31 +611,9 @@ margin-left: 2rem;
 
 /* grid plantas */
 
-.grid-plantas {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  gap: 30px;
-}
+/* grid iluminacion */
 
-.grid-plantas h2:nth-child(1) {
-  display: grid;
-  grid-area: 1 / 1 / span 1 / span 1;
-}
-
-.grid-plantas p:nth-child(2) {
-  display: grid;
-  grid-area: 2 / 1 / span 1 / span 1;
-}
-
-.grid-plantas p:nth-child(3) {
-  display: grid;
-  grid-area: 2 / 1 / span 1 / span 1;
-}
-
-.grid-plantas img:nth-child(4) {
-  display: grid;
-  grid-area: 2 / 1 / span 1 / span 1;
-}
+/* grid ecologico */
 
 
 
