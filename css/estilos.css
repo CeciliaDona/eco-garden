@@ -101,6 +101,58 @@ nav ul li {
   left: 15px;
 }
 
+.palabras {
+display: flex;
+width: 39rem;
+height: 12rem;
+text-align: center;
+margin: 15px;
+font-size: 8rem;
+color: rgb(255, 250, 245);
+font-family: "anton", sans-serif;
+line-height: 12rem;
+position: absolute;
+top: 0;
+right: 0;
+left: 0;
+bottom: 0;
+margin: auto;
+overflow: hidden;
+border: solid 4px white
+
+}
+
+.palabras ul {
+  list-style: none;
+  margin: auto;
+  animation: deslizar infinite;
+  animation-duration: 15s;
+  animation-timing-function: linear;
+}
+
+@keyframes deslizar {
+  0% {margin-top: 0;}
+  15% {margin-top: 0;}
+
+  20% {margin-top: -12rem;}
+  35% {margin-top: -12rem;}
+
+  40% {margin-top: -24rem;}
+  55% {margin-top: -24rem;}
+
+  60% {margin-top: -36rem}
+  75% {margin-top: -36rem}
+
+  80% {margin-top: -48rem}
+  95% {margin-top: -48rem}
+
+  100% {margin-top: 0}
+}
+
+
+
+
+
 /* HEADER (demás secciones) */
 
 .menuconlogosecciones {
@@ -323,17 +375,14 @@ a {
   display: inline;
 }
 
-.grid-contacto {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-self: center;
-  width: 200px;
-  margin-left: 42.5%; 
+
+.flex-contacto {
+display: flex;
+flex-direction: row;
+justify-content: center;
 }
 
-.grid-contacto li {
-text: center;
-}
+
 
 .copyright {
   margin-left: 500px;
@@ -369,7 +418,7 @@ text: center;
 }
 
 .quienes-somos section p {
-font-size: 1.4rem;
+font-size: 1.3rem;
 }
 
 .contenedor-nosotros h1 {
@@ -408,11 +457,11 @@ font-size: 1.4rem;
 
 @keyframes aparecer-p {
   0% {
-    opacity: 0; font-size: 1.3rem;
+    opacity: 0; font-size: 1.2rem;
   }
 
   100% {
-    opacity: 1; font-size: 1.4rem;
+    opacity: 1; font-size: 1.3rem;
   }
 }
 
