@@ -60,8 +60,8 @@ nav ul li {
   padding: 0;
 }
 
-.menuconlogo {
-  background-color: rgba(24, 17, 7, 0.774);
+.menuprincipal {
+  background-color: rgba(24, 24, 33, 0.858);
   padding-left: 10px;
   padding-top: 10px;
   display: inline-block;
@@ -94,7 +94,7 @@ nav ul li {
 }
 
 .logo {
-  width: 6rem;
+  width: 5rem;
   display: inline-block;
   position: relative;
   top: 3px;
@@ -126,7 +126,7 @@ border: solid 4px white
   list-style: none;
   margin: auto;
   animation: deslizar infinite;
-  animation-duration: 15s;
+  animation-duration: 12.5s;
   animation-timing-function: linear;
 }
 
@@ -150,14 +150,7 @@ border: solid 4px white
 }
 
 
-
-
-
 /* HEADER (demás secciones) */
-
-.menuconlogosecciones {
-  background-color: rgba(30, 30, 31, 0.966);
-}
 
 .menusecciones {
   width: 95%;
@@ -288,7 +281,7 @@ footer {
   background-color: rgba(30, 30, 31, 0.966);
   color: #fff;
   width: 100%;
-  min-width: 100vh;
+  
   margin: auto;
 }
 
@@ -311,6 +304,8 @@ footer {
   bottom: 6px;
 }
 
+
+
 .whatsapp img {
   width: 3.2rem;
   height: 3rem;
@@ -319,6 +314,7 @@ footer {
   position: fixed;
   bottom: 6px;
   right: 20px;
+  
 }
 
 
@@ -329,7 +325,6 @@ footer li {
 footer li img {
   margin-right: 8px;
 }
-
 
 
 .contactocentrado {
@@ -366,6 +361,12 @@ a {
   text-align: center;
 }
 
+.flex-contacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  }
+
 .icono-contacto {
   width: 2.3rem;
   height: 2.3rem;
@@ -373,19 +374,18 @@ a {
   padding: 2px;
   border-radius: 120px;
   display: inline;
+  transition: 0.3s;
 }
 
-
-.flex-contacto {
-display: flex;
-flex-direction: row;
-justify-content: center;
+footer li img:hover {
+  border-radius: 0;
 }
 
 
 
 .copyright {
-  margin-left: 500px;
+  display: flex;
+  justify-content: center;
   font-size: 12px;
   padding-bottom: 15px;
 }
@@ -670,10 +670,12 @@ margin-left: 2rem;
 
 #arriba {
   margin-bottom: 2rem;
-  margin-top: 2rem;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
+
+
+
 
 #accordionExample div {
   background-color: rgba(241, 229, 229, 0.739);
@@ -1022,4 +1024,15 @@ input:hover {
   background-color: rgb(157, 159, 157);
   width: 90px;
   height: 34px;
+}
+
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+  nav {
+    display: none;
+  }
+
 }
