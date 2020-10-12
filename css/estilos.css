@@ -512,8 +512,16 @@ margin-left: 2rem;
 
 /* BODY SERVICIOS */
 
+.titulo-servicios {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  color: rgb(98, 123, 52);
+}
+
 .parrafo-servicios {
- line-height: 2;
+ line-height: 2.7;
+ text-align: justify;
 }
 
 .animacion-imagenes {
@@ -557,112 +565,75 @@ margin-left: 2rem;
 
 
 
-/* grid decoración */
+/*  decoración */
 
 .grid-decoracion {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  gap: 30px;
+  display: flex;
+  flex-direction: row;
 }
 
-.grid-decoracion h2:nth-child(1) {
-  display: grid;
-  /*GRID AREA: grid-row-start / grid-column-start / grid-row-end /grid-column-end; */
-  grid-area: 1 / 1 / span 1 / span 1;
-}
-
-.grid-decoracion p:nth-child(2) {
-  display: grid;
-  grid-area: 2 / 1 / span 1 / span 1;
-}
-
-.grid-decoracion img:nth-child(3) {
-  display: grid;
-  grid-area: 1 / 2 / span 2 / span 1;
-}
-
-/* grid mantenimiento 
-
-.grid-mantenimiento  {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 30px;
-}
-
-.titulo-servicios h2:nth-child(1) {
-  display: grid;
-  grid-area: 1 / 2 / span 1 / span 1;
-}
-
-.iparrafo-servicios p:nth-child(2) {
-  display: grid;
-  grid-area: 2 / 2 / span 1 / span 1;
-  }
-
-  .imagenes-servicios img:nth-child(3) {
-  display: grid;
-  grid-area: 1 / 1 / span 2 / span 1;
- } */
-
- .grid-mantenimiento {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  gap: 30px;
-}
-
-.grid-mantenimiento h2:nth-child(1) {
-  display: grid;
-  /*GRID AREA: grid-row-start / grid-column-start / grid-row-end /grid-column-end; */
-  grid-area: 1 / 1 / span 1 / span 1;
-}
-
-.grid-mantenimiento p:nth-child(2) {
-  display: grid;
-  grid-area: 2 / 1 / span 1 / span 1;
-}
-
-.grid-mantenimiento img:nth-child(3) {
-  display: grid;
-  grid-area: 1 / 2 / span 2 / span 1;
+.grid-decoracion div {
+  margin: 2.5rem;
 }
 
 
+/*  mantenimiento */
 
-/* grid jardin vertical */
+.grid-mantenimiento {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.flex-mantenimiento div {
+  margin: 2.5rem;
+}
+
+
+/*  jardin vertical */
 
 .grid-vertical {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  gap: 30px;
+  display: flex;
+  flex-direction: row;
 }
 
-.grid-vertical h2:nth-child(1) {
-  display: grid;
-  grid-area: 1 / 1 / span 1 / span 1;
-}
-
-.grid-vertical p:nth-child(2) {
-  display: grid;
-  grid-area: 2 / 1 / span 1 / span 1;
-}
-
-.grid-vertical p:nth-child(3) {
-  display: grid;
-  grid-area: 3 / 1 / span 1 / span 1;
-}
-
-.grid-vertical img:nth-child(4) {
-  display: grid;
-  grid-area: 1 / 2 / span 2 / span 1;
+.flex-vertical div {
+  margin: 2.5rem;
 }
 
 
-/* grid plantas */
+/*  plantas */
 
-/* grid iluminacion */
+.grid-plantas {
+  display: flex;
+  flex-direction: row;
+}
 
-/* grid ecologico */
+.flex-plantas div {
+  margin: 2.5rem;
+}
+
+/*  iluminacion */
+
+.grid-iluminacion {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-iluminacion div {
+  margin: 2.5rem;
+}
+
+/*  ecologico */
+
+.grid-ecologico {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-ecologico div {
+  margin: 2.5rem;
+}
+
 
 
 
