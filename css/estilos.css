@@ -524,6 +524,10 @@ margin-left: 2rem;
  text-align: justify;
 }
 
+.imagenes-servicios {
+  border-radius: 1rem;
+}
+
 .animacion-imagenes {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -565,8 +569,6 @@ margin-left: 2rem;
 
 
 
-
-
 /*  decoración */
 
 .grid-decoracion {
@@ -574,21 +576,15 @@ margin-left: 2rem;
   flex-direction: row;
 }
 
-.grid-decoracion div {
-  margin: 2.5rem;
-}
 
 
 /*  mantenimiento */
 
 .grid-mantenimiento {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 
-.flex-mantenimiento div {
-  margin: 2.5rem;
-}
 
 
 /*  jardin vertical */
@@ -598,9 +594,6 @@ margin-left: 2rem;
   flex-direction: row;
 }
 
-.flex-vertical div {
-  margin: 2.5rem;
-}
 
 
 /*  plantas */
@@ -610,9 +603,6 @@ margin-left: 2rem;
   flex-direction: row;
 }
 
-.flex-plantas div {
-  margin: 2.5rem;
-}
 
 /*  iluminacion */
 
@@ -621,9 +611,6 @@ margin-left: 2rem;
   flex-direction: row;
 }
 
-.flex-iluminacion div {
-  margin: 2.5rem;
-}
 
 /*  ecologico */
 
@@ -631,11 +618,6 @@ margin-left: 2rem;
   display: flex;
   flex-direction: row;
 }
-
-.flex-ecologico div {
-  margin: 2.5rem;
-}
-
 
 
 
@@ -734,6 +716,7 @@ margin-left: 2rem;
 }
 
 .grid-deco img,
+.grid-decoracion img,
 .grid-mantenimiento img,
 .grid-ecologico img,
 .grid-muebles img,
@@ -746,6 +729,7 @@ margin-left: 2rem;
 }
 
 .grid-deco,
+.grid-decoracion,
 .grid-mantenimiento,
 .grid-ecologico,
 .grid-muebles,
