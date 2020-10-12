@@ -537,12 +537,6 @@ margin-left: 2rem;
   transition: width 1s; 
 }
 
-.animacion-imagenes img:hover {
-  width: 385px;
-  height: 533px;
-  }
-
-
 .foto1 {
   z-index: 5;
 }
@@ -562,6 +556,14 @@ margin-left: 2rem;
 .foto5 {
   z-index: 1;
 }
+
+
+.animacion-imagenes img:hover {
+  width: 385px;
+  height: 533px;
+  }
+
+
 
 
 
