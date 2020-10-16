@@ -747,62 +747,19 @@ margin-left: 2rem;
   grid-area: 1 / 1 / span 2 / span 1;
 }
 
-.grid-deco img:nth-child(2) {
-  grid-area: 1 / 2 / span 1 / span 1;
-}
-
-.grid-deco img:nth-child(5) {
-  grid-area: 2 / 2 / span 1 / span 1;
-}
-
-.grid-deco img:nth-child(4) {
-  grid-area: 3 / 1 / span 1 / span 1;
-}
-
-.grid-deco img:nth-child(3) {
-  grid-area: 3 / 2 / span 1 / span 1;
-}
-
-.grid-deco img:nth-child(6) {
-  grid-area: 4 / 1 / span 1 / span 1;
-}
-
-.grid-deco img:nth-child(7) {
-  grid-area: 4 / 2 / span 1 / span 1;
-}
 
 #deco2 {
-  height: 570px;
+  height: 562px;
 }
 
 #suelo-madera {
-  height: 365px;
+  height: 360px;
 }
 
 /* fotos mantenimiento */
 #remodelacion {
-  height: 340px;
+  height: 333px;
 }
-
-.grid-mantenimiento img:nth-child(1) {
-/*GRID AREA: grid-row-start / grid-column-start / grid-row-end /grid-column-end; */
-grid-area: 1 / 1 / span 1 / span 1;
-}
-
-.grid-mantenimiento img:nth-child(2) {
-  /*GRID AREA: grid-row-start / grid-column-start / grid-row-end /grid-column-end; */
-  grid-area: 1 / 2 / span 1 / span 1;
-  }
-
-  .grid-mantenimiento img:nth-child(3) {
-    /*GRID AREA: grid-row-start / grid-column-start / grid-row-end /grid-column-end; */
-    grid-area: 2 / 1 / span 1 / span 1;
-    }
-
-  .grid-mantenimiento img:nth-child(3) {
-    /*GRID AREA: grid-row-start / grid-column-start / grid-row-end /grid-column-end; */
-     grid-area: 2 / 2 / span 1 / span 1;
-     }
 
 /* fotos productos ecológicos */
 #mueble-p {
@@ -810,21 +767,20 @@ grid-area: 1 / 1 / span 1 / span 1;
 }
 
 #barra {
-  height: 412px;
+  height: 400px;
 }
 
 #mesa {
-  height: 410px;
+  height: 405px;
 }
 
 .grid-ecologico img:nth-child(1) {
-  /*GRID AREA: grid-row-start / grid-column-start / grid-row-end /grid-column-end; */
   grid-area: 1 / 1 / span 2 / span 1;
 }
 
 /* fotos muebles de exterior */
 #reposeras {
-  height: 365px;
+  height: 360px;
 }
 
 /* fotos iluminación */
@@ -835,29 +791,15 @@ grid-area: 1 / 1 / span 1 / span 1;
 
 
 /* fotos jardín vertical */
+
+
 .grid-vertical img:nth-child(1) {
-  /*GRID AREA: grid-row-start / grid-column-start / grid-row-end /grid-column-end; */
   grid-area: 1 / 1 / span 2 / span 1;
 }
 
-.grid-vertical img:nth-child(2) {
-  grid-area: 1 / 2 / span 1 / span 1;
-}
-
-.grid-vertical img:nth-child(3) {
-  grid-area: 2 / 2 / span 1 / span 1;
-}
-
-.grid-vertical img:nth-child(4) {
-  grid-area: 3 / 1 / span 1 / span 1;
-}
-
 .grid-vertical img:nth-child(5) {
-  grid-area: 3 / 2 / span 2 / span 1;}
+  grid-area: 3 / 1 / span 2 / span 1;}
 
-.grid-vertical img:nth-child(6) {
-  grid-area: 4 / 1 / span 1 / span 1;
-  }
 
 
 #vertical1 {
@@ -869,7 +811,7 @@ grid-area: 1 / 1 / span 1 / span 1;
 }
 
 #vertical-port {
-  height: 432px;
+  height: 420px;
 }
 
 
