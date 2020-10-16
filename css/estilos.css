@@ -465,8 +465,6 @@ font-size: 1.3rem;
   }
 }
 
-
-
 #carouselExampleIndicators {
   width: 100%;
   margin: 2rem;
@@ -567,16 +565,12 @@ margin-left: 2rem;
   height: 533px;
   }
 
-
-
 /*  decoración */
 
 .grid-decoracion {
   display: flex;
   flex-direction: row;
 }
-
-
 
 /*  mantenimiento */
 
@@ -585,8 +579,6 @@ margin-left: 2rem;
   flex-direction: row;
 }
 
-
-
 /*  jardin vertical */
 
 .grid-vertical {
@@ -594,15 +586,12 @@ margin-left: 2rem;
   flex-direction: row;
 }
 
-
-
 /*  plantas */
 
 .grid-plantas {
   display: flex;
   flex-direction: row;
 }
-
 
 /*  iluminacion */
 
@@ -629,14 +618,9 @@ margin-left: 2rem;
   font-family: 'Montserrat', sans-serif;
 }
 
-
-
-
 #accordionExample div {
   background-color: rgba(241, 229, 229, 0.739);
 }
-
-
 
 
 /* BODY TRABAJOS */
@@ -747,7 +731,6 @@ margin-left: 2rem;
   grid-area: 1 / 1 / span 2 / span 1;
 }
 
-
 #deco2 {
   height: 562px;
 }
@@ -792,15 +775,12 @@ margin-left: 2rem;
 
 /* fotos jardín vertical */
 
-
 .grid-vertical img:nth-child(1) {
   grid-area: 1 / 1 / span 2 / span 1;
 }
 
 .grid-vertical img:nth-child(5) {
   grid-area: 3 / 1 / span 2 / span 1;}
-
-
 
 #vertical1 {
   height: 270px;
@@ -813,7 +793,6 @@ margin-left: 2rem;
 #vertical-port {
   height: 420px;
 }
-
 
 /* BODY COMO TRABAJAMOS */
 
@@ -930,8 +909,8 @@ input:hover {
 /* MOBILE */
 
 @media (max-width: 768px) {
-  nav {
+  .menuprincipal {
     display: none;
   }
-
 }
+
