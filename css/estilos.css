@@ -65,10 +65,14 @@ nav ul li {
   display: none;
 }
 
-.close img,
 .open img {
   width: 40px;
   height: 40px;
+}
+
+.close img {
+  width: 30px;
+  height: 30px;
 }
 
 .menuprincipal {
@@ -521,7 +525,7 @@ footer li img:hover {
   margin-bottom: 4rem;
 }
 
-#carouselExampleIndicators div:nth-child() {
+#carouselExampleIndicators div:nth-child(2) {
   /*GRID AREA: grid-row-start / grid-column-start / grid-row-end /grid-column-end; */
   grid-area: 1 / 1 / span 1 / span 1;
 }
@@ -865,7 +869,6 @@ textarea {
   width: 395px;
   height: 100px;
   font-size: 1rem;
-  margin: 8px;
   font-family: Open Sans, Sans-serif;
   border: rgb(113, 111, 111) 1px;
   border-radius: 5px;
@@ -873,6 +876,7 @@ textarea {
   background-color: rgba(223, 218, 218, 0.701);
   padding-left: 8px;
   transition: all 0.6s;
+  resize: none;
 }
 
 textarea:focus {
@@ -919,6 +923,7 @@ input:hover {
 
   .menuGris {
     background-color: rgb(43, 36, 36);
+    z-index: 6;
   }
 
   .open {
@@ -926,6 +931,13 @@ input:hover {
     position: absolute;
     left: 20px;
     top: 20px;
+  }
+
+  .close {
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 30px;
   }
 
   .menusecciones li,
@@ -937,7 +949,6 @@ input:hover {
     width: 10rem;
     margin-right: 2.5rem;
     padding: 0;
-
     top: 5rem;
     right: 50%;
     justify-content: center;
@@ -1081,9 +1092,13 @@ input:hover {
     font-size: 1.7rem;
   }
 
+  .contenedor-nosotros {
+    margin-bottom: 1.3rem;
+  }
+
   .quienes-somos section p {
-    padding: 0.5rem;
-    margin: 0;
+    padding: 0.4rem;
+    margin: 0.5;
     font-size: 0.9rem;
   }
 
@@ -1113,6 +1128,227 @@ input:hover {
 
   /* carrussel */
 
-  #carouselExampleIndicators {
+  .articulo h2 {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+
+  .articulo ul {
+    margin: 0;
+  }
+
+  .div-clas-5 {
+    grid-template-columns: 1fr;
+  }
+
+  #carouselExampleIndicators,
+  div:nth-child(2) {
+    /*GRID AREA: grid-row-start / grid-column-start / grid-row-end /grid-column-end; */
+    grid-area: 2 / 1 / span 1 / span 1;
+  }
+
+  .div-clas-5,
+  article:nth-child(1) {
+    grid-area: 1 / 1 / span 1 / span 1;
+  }
+
+  #carouselExampleIndicators,
+  .carousel,
+  .slide,
+  .pointer-event {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Servicios */
+
+  .aplicar-fondo-oscuro {
+    background-color: rgb(39, 39, 46);
+  }
+
+  .animacion-imagenes {
+    display: none;
+  }
+
+  .separador {
+    display: none;
+  }
+
+  #arriba {
+    padding-top: 4.5rem;
+  }
+
+  .grid-decoracion div {
+    width: auto;
+  }
+
+  .titulo-servicios {
+    font-size: 1.2rem;
+    margin-bottom: 0rem;
+    text-align: center;
+    width: 100%;
+    padding: 0.5rem;
+    margin-right: 0;
+  }
+
+  .titulo-servicios h2 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .parrafo-servicios {
+    font-size: 0.8rem;
+    padding: 0;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    text-align: left;
+  }
+
+  .parrafo-servicios p {
+    margin-right: 0;
+  }
+
+  .items-mantenimiento p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .grid-deco img,
+  .grid-decoracion img,
+  .grid-mantenimiento img,
+  .grid-ecologico img,
+  .grid-muebles img,
+  .grid-iluminacion img,
+  .grid-plantas img,
+  .grid-vertical img {
+    width: 340px;
+  }
+
+  /* Sección Nuestros trabajos - galería */
+
+  /*iconos*/
+
+  .iconos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 2rem;
+  }
+
+  .iconos div {
+    width: 9rem;
+    height: 15rem;
+  }
+
+  .iconos h2 {
+    font-size: 1rem;
+  }
+
+  .iconos img {
+    width: 90px;
+    height: 90px;
+    margin-right: 12px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  /* fotos */
+
+  .fondo-galeria {
+    padding: 0.3rem;
+    margin: 0;
+  }
+
+  .h2galeria {
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    padding-bottom: 1.3rem;
+  }
+
+  .division {
+    height: 3rem;
+  }
+
+  .grid-deco,
+  .grid-decoracion,
+  .grid-mantenimiento,
+  .grid-ecologico,
+  .grid-muebles,
+  .grid-iluminacion,
+  .grid-plantas,
+  .grid-vertical {
+    grid-template-columns: 1fr;
+    margin-right: 1rem;
+    padding: 1rem;
+    align-items: center;
+  }
+
+  #deco2,
+  #reposeras {
+    height: 365px;
+  }
+
+  #suelo-madera {
+    height: 250px;
+  }
+
+  #barra {
+    height: 280px;
+  }
+
+  #mesa,
+  #vertical-port {
+    height: 300px;
+  }
+
+  #vertical1,
+  #vertical5 {
+    height: 240px;
+  }
+
+  /* Sección Como trabajamos */
+  #arriba {
+    font-size: 1.7rem;
+  }
+
+  .como-t {
+    margin-bottom: 1.3rem;
+    margin-top: 4rem;
+    padding: 0;
+  }
+
+  .como-t #arriba {
+    padding-top: 1.7rem;
+  }
+
+  .parrafo-como-trabajamos {
+    padding: 0.4rem;
+    margin: 0.5;
+    font-size: 0.9rem;
+  }
+
+  /* Sección Contacto */
+
+  .campos input {
+    width: 315px;
+    font-size: 0.9rem;
+  }
+
+  input:focus {
+    width: 330px;
+    font-size: 1rem;
+  }
+
+  .textarea {
+    width: 315px;
+    max-width: 330px;
+    resize: none;
+    font-size: 0.9rem;
+  }
+
+  textarea:focus {
+    width: 330px;
+    font-size: 1rem;
   }
 }
