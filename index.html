@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="imagenes/varias/decoeco.png"/>
     <title>EcoGarden | Decoración de Exterior</title>
     <meta name="keywords" content="decoración, exterior, jardin, patios, balcones, terrazas, espacios verdes, iluminación, plantas, paisajismo, muebles de exterior, ideas">
@@ -15,8 +16,10 @@
    
 <body>
     <header class="contenedor">
-            <nav class="menuprincipal">
-                <img class="logo" id="inicio" src="imagenes/varias/decoeco.png" alt="EcoGarden">
+        <a href="#nav" class="open"><img src="imagenes/varias/meu2.png" alt="Menu"></a>
+            <nav id="nav" class="menuprincipal">
+                <a href="index.html"><img class="logo" id="inicio" src="imagenes/varias/decoeco.png" alt="EcoGarden"/></a> 
+                <a href="#" class="close"><img src="imagenes/varias/cerrar.png"  alt="Cerrar"></a>
                 <ul class="menu">
                     <li><a href="nosotros.html">NOSOTROS</a></li>
                     <li><a href="servicios.html">SERVICIOS</a></li>
@@ -66,7 +69,7 @@
     </section>
 
 
-<section>
+<section class="tp2">
     <div class="titulo2">
         <h2 class="wow animate__animated animate__zoomIn">¿Por qué decorar con plantas?</h2>
     </div>
@@ -127,7 +130,7 @@
 
 <script src="https://raw.githubusercontent.com/graingert/WOW/master/dist/wow.min.js"></script>
 <script>
-    nuevo WOW (). init ();
+    new WOW().init();
     </script>
  </body>
 </html>  
