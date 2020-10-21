@@ -109,10 +109,10 @@ nav ul li {
 }
 
 .logo {
-  width: 4rem;
+  width: 6rem;
   display: inline-block;
   position: relative;
-  top: 3px;
+  top: 1rem;
   left: 10px;
 }
 
@@ -945,9 +945,12 @@ input:hover {
     margin: 12px 0;
   }
 
+  /* logo redondo ecogarden */
+
   #inicio {
-    width: 10rem;
+    width: 9rem;
     margin-right: 2.5rem;
+    margin-bottom: 2rem;
     padding: 0;
     top: 5rem;
     right: 50%;
