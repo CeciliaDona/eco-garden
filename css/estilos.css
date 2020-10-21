@@ -109,11 +109,11 @@ nav ul li {
 }
 
 .logo {
-  width: 5rem;
+  width: 4rem;
   display: inline-block;
   position: relative;
   top: 3px;
-  left: 15px;
+  left: 10px;
 }
 
 .palabras {
@@ -990,7 +990,7 @@ input:hover {
     margin: 15px;
     font-size: 3rem;
     top: 10rem;
-    left: 2rem;
+    left: 2.4rem;
   }
 
   .tp1 {
@@ -1013,7 +1013,7 @@ input:hover {
     font-size: 0.8rem;
     padding: 0.5rem;
     margin: 0.5rem;
-    text-align: justify;
+    text-align: left;
   }
 
   .p2index {
@@ -1038,7 +1038,7 @@ input:hover {
 
   .p3index {
     padding: 0.5rem;
-    text-align: justify;
+    text-align: left;
     font-size: 0.8rem;
     margin: 0.5rem;
   }
@@ -1143,7 +1143,6 @@ input:hover {
 
   #carouselExampleIndicators,
   div:nth-child(2) {
-    /*GRID AREA: grid-row-start / grid-column-start / grid-row-end /grid-column-end; */
     grid-area: 2 / 1 / span 1 / span 1;
   }
 
@@ -1162,10 +1161,6 @@ input:hover {
   }
 
   /* Servicios */
-
-  .aplicar-fondo-oscuro {
-    background-color: rgb(39, 39, 46);
-  }
 
   .animacion-imagenes {
     display: none;
@@ -1215,6 +1210,10 @@ input:hover {
     padding-bottom: 0;
   }
 
+  #margen {
+    padding: 0;
+  }
+
   .grid-deco img,
   .grid-decoracion img,
   .grid-mantenimiento img,
@@ -1224,6 +1223,11 @@ input:hover {
   .grid-plantas img,
   .grid-vertical img {
     width: 340px;
+    justify-content: center;
+  }
+
+  .imagenes-servicios img {
+    justify-content: center;
   }
 
   /* Sección Nuestros trabajos - galería */
@@ -1313,8 +1317,8 @@ input:hover {
   }
 
   .como-t {
-    margin-bottom: 1.3rem;
-    margin-top: 4rem;
+    margin-bottom: 3rem;
+    margin-top: 4.5rem;
     padding: 0;
   }
 
@@ -1323,9 +1327,17 @@ input:hover {
   }
 
   .parrafo-como-trabajamos {
-    padding: 0.4rem;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    padding-bottom: 1.7rem;
+    padding-top: 0;
     margin: 0.5;
     font-size: 0.9rem;
+  }
+
+  #accordionExample {
+    margin-bottom: 2rem;
+    margin: auto;
   }
 
   /* Sección Contacto */
@@ -1340,15 +1352,22 @@ input:hover {
     font-size: 1rem;
   }
 
-  .textarea {
+  #texto {
     width: 315px;
     max-width: 330px;
     resize: none;
+    font-size: 0.9rem;
     font-size: 0.9rem;
   }
 
   textarea:focus {
     width: 330px;
     font-size: 1rem;
+  }
+
+  .cuerpo {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    padding: 0.5rem;
   }
 }
