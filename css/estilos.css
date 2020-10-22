@@ -1267,6 +1267,10 @@ input:hover {
     margin: 0;
   }
 
+  .fondo-galeria img:hover {
+    transform: none;
+  }
+
   .h2galeria {
     font-size: 1.2rem;
     padding-top: 1rem;
